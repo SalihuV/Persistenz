@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Persistenz</string>
+    <string name="artificial">Assugrin</string>
+    <string name="refined">Kristallzucker</string>
+    <string name="natural">Rohrzucker</string>
+    <string name="Titel">HSLU Mobile Programming</string>
+
+</resources>
