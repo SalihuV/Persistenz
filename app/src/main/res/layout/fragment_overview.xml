@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Introduction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Introduction"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Introduction1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Introduction1"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/counterViewElement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MainActivity.onResume wurde seit der Installation dieser App XX mal aufgerufen"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/preferencesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ich trinke am Liebsten Lipton/Pfefferminztee, ungesüsst"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btn_edit_preferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="setPreferences"
+                android:text="@string/TeePreferencesButton" />
+
+            <Button
+                android:id="@+id/btn_set_default_preferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="setDefaultPreferences"
+                android:text="@string/TeeResetPreferencesButton" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Dateisystem" />
+
+            <CheckBox
+                android:id="@+id/chk_external_store"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Externer Speicher benutzen" />
+
+            <TextView
+                android:id="@+id/ExternalStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Bitte Text einfügen" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Speichern"
+                android:textAlignment="center"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/btn_load"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laden"
+                android:textAlignment="center"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
