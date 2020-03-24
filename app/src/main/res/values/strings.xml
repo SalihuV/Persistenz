@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Persistenz</string>
-    <string name="artificial">Assugrin</string>
-    <string name="refined">Kristallzucker</string>
-    <string name="natural">Rohrzucker</string>
-    <string name="Titel">HSLU Mobile Programming</string>
-
+    <string name="Introduction">HSLU Mobile Programming</string>
+    <string name="Introduction1">Application-Preferences</string>
+    <string name="TeePreferencesButton">Tee-Prefences editieren</string>
+    <string name="TeeResetPreferencesButton">Tee Default-Prefs setzen</string>
+    <string name="Dateisystem">Dateisystem</string>
 </resources>
